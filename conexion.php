@@ -2,10 +2,10 @@
 
 	class Conexion extends PDO 
 	{
-		private $hostBd = '187.160.239.37';
-		private $nombreBd = 'feria';
-		private $usuarioBd = 'postgres';
-		private $passwordBd = 'Eisa2022.'; 
+		private $hostBd = '';
+		private $nombreBd = '';
+		private $usuarioBd = '';
+		private $passwordBd = ''; 
 
 		public function __construct () 
 		{
